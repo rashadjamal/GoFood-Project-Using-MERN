@@ -51,6 +51,7 @@ export const Signup = () => {
               name="name"
               value={credendtials.name}
               onChange={onChange}
+              autoComplete="new-username"
             />
           </div>
           <div className="mb-3">
@@ -81,6 +82,7 @@ export const Signup = () => {
               value={credendtials.password}
               onChange={onChange}
               id="exampleInputPassword1"
+              autoComplete="new-password"
             />
           </div>
           <div className="mb-3">
