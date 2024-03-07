@@ -4,7 +4,7 @@ const router = express.Router();
 router.post('/foodData', (req, res) => {
     try {
         // Check if both global.sample and global.foodcate are defined
-        if (global.sample && global.foodcate) {
+        if ([global.sample && global.foodcate]) {
             const responseData = {
                 sample: global.sample,
                 foodcate: global.foodcate
