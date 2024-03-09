@@ -69,11 +69,9 @@ const Home = () => {
                                         .map((item) => (
                                             <div key={item._id} className='col-lg-4 col-md-6'>
                                                 <Card
-                                                    key={item._id}
-                                                    item={item}
-                                                    foodName={item.name}
+                                                   foodItem ={item}
                                                     options={item.options[0]}
-                                                    imgSrc={item.img}
+                                               
                                                 />
                                             </div>
                                         ))}
